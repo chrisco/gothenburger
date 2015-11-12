@@ -30,6 +30,7 @@ While the MMVP will only have two types of Users, future versions of the app wil
 
 ## Bonus Feature Ideas
 
+* Customers can Follow Burgers, Restaurants, and other Customers.
 * Automated anti-spam feature(s).
 * Integrate Maps and Reservations, such as using Google Maps API and OpenTable API.
 * Integrate other APIs, such as Yelp, FourSquare, Facebook, Twitter, Instagram, SnapChat.
@@ -61,10 +62,10 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.  Green cards for User Stories, Yellow cards for Tasks, and Red cards for Bugs.
 
-## Key Dates
+## Key Project Dates
 
-* Project Starts: Thursday, November 12, 2015.
-* Project Finishes: Friday, November 20, 2015.
+* Start: Thursday, November 12, 2015.
+* Finish: Friday, November 20, 2015.
 
 ## Key Technologies Used
 
@@ -76,11 +77,11 @@ While I typically prefer paper, pen, and a physical board, for this project I wi
 * Styling: Bootstrap
 * Testing: RSpec, Capybara, Jasmine, Protractor
 
-## Try Gothenburger Online
+## Tests and Continuous Integration (coming soon)
 
-Coming soon
+TDD/BDD with unit tests, integration tests, and CI.
 
-## Run It Locally (coming soon)
+## Run Gothenburger Locally (coming soon)
 
 ````
 $ git clone git@github.com:chrisco/gothenburger.git && cd gothenburger
@@ -89,6 +90,10 @@ $ npm install
 $ open index.html
 ````
 
-## Tests and Continuous Integration (coming soon)
+## Try It Online
 
-TDD/BDD with unit tests, integration tests, and CI.
+Coming soon
+
+## Get the App
+
+Coming later
