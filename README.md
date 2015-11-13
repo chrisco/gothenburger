@@ -81,7 +81,13 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 ## Project Management / Software Development Tooling
 
-While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.  Blue and Green cards are User Stories (Blue for MVP features), Yellow cards are Tasks, and Red cards are Bugs.
+While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.
+
+Blue and Green cards are User Stories (Blue for MVP features), Yellow cards are Tasks, and Red cards are Bugs.  Cards are numbered as follows:
+
+* US## for User Stories
+* T## for Tasks
+* B## for Bugs
 
 The columns are as follow:
 
@@ -101,10 +107,10 @@ The columns are as follow:
 
 ## Git Branches and Workflow
 
-1) Work on feature branches.
-2) Merge feature branches to development branch when features are done.
-3) Merge development branch to staging branch to automatically deploy to staging server (if all tests pass).
-4) Merge staging branch to production branch to automatically deploy to production server (if all tests pass).
+1. Work on feature branches.
+2. Merge feature branches to development branch when features are done.
+3. Merge development branch to staging branch to automatically deploy to staging server (if all tests pass).
+4. Merge staging branch to production branch to automatically deploy to production server (if all tests pass).
 
 ## Tests and Continuous Integration (coming soon)
 
