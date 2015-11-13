@@ -1,38 +1,38 @@
 ## What's This All About?
 
-Learning by doing!  Specifically, by trying to remember and put into practice the things covered during my time at Makers Academy.  And to keep pushing and extending my learning!
+Learning by doing!  Specifically, by trying to remember and put into practice the things covered during my time at Makers Academy.  Also to keep pushing and extending my learning.
 
 ## What's Gothenburger?
 
 Gothenburger is a proprietary project of mine that I am working on individually while a student at Makers Academy.  The ultimate purpose of Gothenburger is to help people find the “best” burger (for them) in Gothenburg, Sweden (for now).
 
-Since I want to maximize (1) learning and (2) quality, and I won't be able to complete the application in one week, which is the time I have to work on it before my parents come to Sweden to visit us, I will only try to complete one part of the app, the administrative part of the application.  Why?  Because admin-facing apps important (even if they're not sexy).  And I've already worked on multiple customer-facing apps, so why not.  Plus, I like to be different (even though it entails costs)!
+Since I want to maximize (1) learning and (2) quality, and I won't be able to complete the application in one week, which is the time I have to work on it before my parents come to Sweden to visit, I will only try to complete one part of the app, the administrative part of the application.  Why?  Because admin-facing apps are important (even if they're not sexy).  And I've already worked on multiple customer-facing apps, so why not.  Plus, I like to be different (even though it entails costs).
 
-## Key MMVP Features -- NEW
+## Initial Features
 
 * Sign-up and Sign-in Restaurant Owners.
 * Restaurant Owners can create Restaurants.
 * Restaurants have profiles.
 * Only Restaurant Owners can edit Restaurant Profiles (only ones that they own).
 * Restaurants have many Burgers (and Burgers belong to Restaurants).
-* Restaurant Owners can create Burgers
+* Restaurant Owners can create Burgers.
 * Burgers have profiles.
 * Anyone can search for and view Burger profiles.
 * Restaurant Owners can edit Burger Profiles (only ones that they own).
 
-## Key MMVP Features -- OLD
+## Next Features
 
-* Sign-up and Sign-in Customers
+* Sign-up and Sign-in Customers.
 * Customers have profiles.
 * Customers can Like, Rate, and Comment on Burgers and Restaurants.
-* CRUD Admin Users (via Rails console).
+* Create more user types.
 
 ## User Types
 
 While the MMVP will only have two types of Users, future versions of the app will a more complete set, such as:
 
 1. Site Owner: Can do everything, plus CRUD/assign/revoke Site Admins.
-2. Site Admins: Can do “everything” except things that only the Site Owner can do (money, etc.).
+2. Site Admins: Can do “everything” except things that only the Site Owner can do.
 3. Restaurant Owners: Can do everything Restaurant Admins can do, plus CRUD Restaurants and CRUD/assign/revoke Restaurant Admins.
 4. Restaurant Admins: Can edit the Restaurant-related data for their Restaurant (profile info, menu info, etc.).
 5. Moderators: Can moderate User Generated Content (UGC) and block/unblock Users and IPs.
@@ -50,7 +50,7 @@ While the MMVP will only have two types of Users, future versions of the app wil
 * Recommendations (algorithmic).
 * “Editor” reviews, ratings, and photographs.
 * Beefed up profiles, such as details about ingredients and practices, such as if they grind their own meet on premises, where they get it, is it ecological, etc.  Ability to search/filter.
-* Deals and Groupons.
+* Deals, coupons, and "Groupons."
 * Advertising and Promotions (brand and targeted, including re-targeting, poaching, etc.):
   * Site-wide.  Example: Sponsored Listings at top of Search Results page.
   * To Followers.  Example: coupons via email, push, or SMS to Followers.
@@ -71,9 +71,7 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 ## Project Management / Software Development Tooling
 
-While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.
-
-I am using Blue and Green cards for User Stories, Yellow cards for Tasks, and Red cards for Bugs.
+While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.  Blue and Green cards are User Stories, Yellow cards are Tasks, and Red cards are Bugs.
 
 The columns are as follow:
 
@@ -82,7 +80,9 @@ The columns are as follow:
 *On Deck: Discuss and write User Stories that meet the [INVEST](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) criteria.  Assign to team member.
 * In Process: What's being worked on right now.
 * Verification: Pull requests, code reviews, CI, staging, customer acceptance, etc.
-* Done: Deployed to production
+* Done: Deployed to production.
+
+![Screenshot of my Kanban board](#)
 
 ## Key Project Dates
 
@@ -95,7 +95,7 @@ The columns are as follow:
 * Backend: Ruby on Rails
 * Database: PostgreSQL
 * Frontend: AngularJS
-* Hosting: Probably Bluemix or Heroku
+* Hosting: Heroku
 * Styling: Bootstrap
 * Testing: RSpec, Capybara, Jasmine, Protractor, maybe Teaspoon
 
