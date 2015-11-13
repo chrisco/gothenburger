@@ -1,3 +1,5 @@
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/eat-more-beef.jpg)
+
 ## What's This All About?
 
 Learning by doing!  Specifically, by trying to remember and put into practice the things covered during my time at Makers Academy.  Also to keep pushing and extending my learning.
