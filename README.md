@@ -107,10 +107,10 @@ The columns are as follow:
 
 ## Git Branches and Workflow
 
-1) Work on feature branches.
-2) Merge feature branches to development branch when features are done.
-3) Merge development branch to staging branch to automatically deploy to staging server (if all tests pass).
-4) Merge staging branch to production branch to automatically deploy to production server (if all tests pass).
+1. Work on feature branches.
+2. Merge feature branches to development branch when features are done.
+3. Merge development branch to staging branch to automatically deploy to staging server (if all tests pass).
+4. Merge staging branch to production branch to automatically deploy to production server (if all tests pass).
 
 ## Tests and Continuous Integration (coming soon)
 
