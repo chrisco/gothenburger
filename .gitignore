@@ -5,5 +5,4 @@
 ignore/*
 config/secrets.yml
 log/
-spec/
 tmp/
