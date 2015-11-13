@@ -82,7 +82,7 @@ The columns are as follow:
 * Verification: Pull requests, code reviews, CI, staging, customer acceptance, etc.
 * Done: Deployed to production.
 
-![Screenshot of my Kanban board](https://github.com/chrisco/gothenburger/blob/master/kanban-board.png)
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/kanban-board.png)
 
 ## Key Project Dates
 
