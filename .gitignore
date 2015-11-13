@@ -1,6 +1,3 @@
-# Items I added myself
-ignore/*
-
 # Items from Github's suggest .gitignore file for Rails apps
 # https://github.com/github/gitignore/blob/master/Rails.gitignore
 
@@ -39,3 +36,6 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Items I added myself
+ignore/*

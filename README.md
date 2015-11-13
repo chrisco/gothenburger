@@ -66,7 +66,7 @@ While the MMVP will only have two types of Users, future versions of the app wil
   * To Followers.  Example: coupons via email, push, or SMS to Followers.
   * To nearby people.  Example: Restaurant Admins create, activate/deactivate location-based promotions to fill empty tables, such as at off-peak times.
 
-## Good, Fast, or Cheap?  Pick Two.
+## Good, Fast, or Cheap?  Pick Two
 
 The plan for this project is to hold Time, Budget, and Quality constant while letting the Scope vary.  That makes sense here because Time *is* fixed (November 20th deadline) and Budget *is* fixed ($0.00).  The quality target is also fixed (High), bearing in mind that "High" is a subjective and relative term (i.e., High for a beginner is different than High for an Olympian, and High for one person or company is low for another).  That leaves Scope to vary.  And so it will!
 
@@ -81,7 +81,7 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 ## Project Management / Software Development Tooling
 
-While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.  Blue and Green cards are User Stories, Yellow cards are Tasks, and Red cards are Bugs.
+While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.  Blue and Green cards are User Stories (Blue for MVP features), Yellow cards are Tasks, and Red cards are Bugs.
 
 The columns are as follow:
 
