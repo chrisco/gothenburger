@@ -1,20 +1,31 @@
 ## What's This All About?
 
-Gothenburger is a proprietary project of mine may that I am working on individually while a student at Makers Academy.  What follows are my initial thoughts on the project, which I envision as being a A "mobile first," responsive web app as described below.
+Learning by doing!  Specifically, by trying to remember and put into practice the things covered during my time at Makers Academy.  And to keep pushing and extending my learning!
 
-## Project Description
+## What's Gothenburger?
 
-The purpose of the app is to help people find the “best” burger (for them) in Gothenburg, Sweden (for now).  The project will evolve and/or pivot as I proceed.  Initially it must be a MMVP (Minimum, Minimum Viable Product), as I have to start it and "finish" it in one week!
+Gothenburger is a proprietary project of mine that I am working on individually while a student at Makers Academy.  The ultimate purpose of Gothenburger is to help people find the “best” burger (for them) in Gothenburg, Sweden (for now).
 
-## Key MMVP Features
+Since I want to maximize (1) learning and (2) quality, and I won't be able to complete the application in one week, which is the time I have to work on it before my parents come to Sweden to visit us, I will only try to complete one part of the app, the administrative part of the application.  Why?  Because admin-facing apps important (even if they're not sexy).  And I've already worked on multiple customer-facing apps, so why not.  Plus, I like to be different (even though it entails costs)!
+
+## Key MMVP Features -- NEW
+
+* Sign-up and Sign-in Restaurant Owners.
+* Restaurant Owners can create Restaurants.
+* Restaurants have profiles.
+* Only Restaurant Owners can edit Restaurant Profiles (only ones that they own).
+* Restaurants have many Burgers (and Burgers belong to Restaurants).
+* Restaurant Owners can create Burgers
+* Burgers have profiles.
+* Anyone can search for and view Burger profiles.
+* Restaurant Owners can edit Burger Profiles (only ones that they own).
+
+## Key MMVP Features -- OLD
 
 * Sign-up and Sign-in Customers
-* CRUD Admin Users (via Rails console)
-* CRUD Burgers (Admins only).
-* CRUD Restaurants (Admins only).
-* Search, filter, and sort the database of Burgers.
-* View search results and click on items to view them.
+* Customers have profiles.
 * Customers can Like, Rate, and Comment on Burgers and Restaurants.
+* CRUD Admin Users (via Rails console).
 
 ## User Types
 
@@ -60,12 +71,23 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 ## Project Management / Software Development Tooling
 
-While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.  Green cards for User Stories, Yellow cards for Tasks, and Red cards for Bugs.
+While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.
+
+I am using Blue and Green cards for User Stories, Yellow cards for Tasks, and Red cards for Bugs.
+
+The columns are as follow:
+
+* Icebox: One-line ideas for "maybe someday."
+* Backlog: Semi-prioritized list of one-line things we want to get done before the project's Finish Date.
+*On Deck: Discuss and write User Stories that meet the [INVEST](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) criteria.  Assign to team member.
+* In Process: What's being worked on right now.
+* Verification: Pull requests, code reviews, CI, staging, customer acceptance, etc.
+* Done: Deployed to production
 
 ## Key Project Dates
 
-* Start: Thursday, November 12, 2015.
-* Finish: Friday, November 20, 2015.
+* Start Data: Thursday, November 12, 2015
+* Finish Date: Friday, November 20, 2015
 
 ## Key Technologies Used
 
@@ -73,9 +95,9 @@ While I typically prefer paper, pen, and a physical board, for this project I wi
 * Backend: Ruby on Rails
 * Database: PostgreSQL
 * Frontend: AngularJS
-* Hosting: Bluehost or Heroku
+* Hosting: Probably Bluemix or Heroku
 * Styling: Bootstrap
-* Testing: RSpec, Capybara, Jasmine, Protractor
+* Testing: RSpec, Capybara, Jasmine, Protractor, maybe Teaspoon
 
 ## Tests and Continuous Integration (coming soon)
 
