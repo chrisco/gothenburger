@@ -8,6 +8,16 @@ Gothenburger is a proprietary project of mine that I am working on individually 
 
 Since I want to maximize (1) learning and (2) quality, and I won't be able to complete the application in one week, which is the time I have to work on it before my parents come to Sweden to visit, I will only try to complete one part of the app, the administrative part of the application.  Why?  Because admin-facing apps are important (even if they're not sexy).  And I've already worked on multiple customer-facing apps, so why not.  Plus, I like to be different (even though it entails costs).
 
+## Key Technologies Used
+
+* Backend: Node.js
+* Backend: Ruby on Rails
+* Database: PostgreSQL
+* Frontend: AngularJS
+* Hosting: Heroku
+* Styling: Bootstrap
+* Testing: RSpec, Capybara, Jasmine, Protractor, maybe Teaspoon
+
 ## Initial Features
 
 * Sign-up and Sign-in Restaurant Owners.
@@ -25,7 +35,7 @@ Since I want to maximize (1) learning and (2) quality, and I won't be able to co
 * Sign-up and Sign-in Customers.
 * Customers have profiles.
 * Customers can Like, Rate, and Comment on Burgers and Restaurants.
-* Create more user types.
+* Create more user types (see below).
 
 ## User Types
 
@@ -39,7 +49,7 @@ While the MMVP will only have two types of Users, future versions of the app wil
 6. Customers: Can do everything Visitors can do, plus do things such as rate and comment on burgers and restaurants.
 7. Visitors (i.e., unregistered users): Can search, filter, sort, and sign up as Users.
 
-## Bonus Feature Ideas
+## Long-term Feature Ideas
 
 * Customers can Follow Burgers, Restaurants, and other Customers.
 * Automated anti-spam feature(s).
@@ -89,15 +99,12 @@ The columns are as follow:
 * Start Data: Thursday, November 12, 2015
 * Finish Date: Friday, November 20, 2015
 
-## Key Technologies Used
+## Git Branches and Workflow
 
-* Backend: Node.js
-* Backend: Ruby on Rails
-* Database: PostgreSQL
-* Frontend: AngularJS
-* Hosting: Heroku
-* Styling: Bootstrap
-* Testing: RSpec, Capybara, Jasmine, Protractor, maybe Teaspoon
+1) Work on feature branches.
+2) Merge feature branches to development branch when features are done.
+3) Merge development branch to staging branch to automatically deploy to staging server (if all tests pass).
+4) Merge staging branch to production branch to automatically deploy to production server (if all tests pass).
 
 ## Tests and Continuous Integration (coming soon)
 
