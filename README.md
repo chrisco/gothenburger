@@ -1,3 +1,5 @@
+# Gothenburger # Dpl [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger?branch=master) [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)
+
 ![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/eat-more-beef.jpg)
 
 ## What's This All About?
@@ -120,10 +122,10 @@ The columns are as follow:
 ## Git Branches and Workflow
 
 1. Work on feature branches.
-2. Merge feature branches to development branch when features are done.
-3. Merge development branch to staging branch to automatically deploy to staging server (if all tests pass).
-4. Merge staging branch to master branch to automatically deploy to production server (if all tests pass).
-
+2. Merge feature branches to Develop branch when features are done.
+3. Develop branch automatically deploys to staging server (if all tests pass).
+4. Merge Develop branch to Master branch.
+5. Master branch automatically deploys to production server (if all tests pass).
 
 ## Run It Locally (coming soon)
 
