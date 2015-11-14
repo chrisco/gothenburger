@@ -6,3 +6,5 @@ ignore/*
 config/secrets.yml
 log/
 tmp/
+.env
+TODO.md

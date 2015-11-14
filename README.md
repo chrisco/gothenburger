@@ -1,4 +1,4 @@
-![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/eat-more-beef.jpg)
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/eat-more-beef.jpg)
 
 ## What's This All About?
 
@@ -100,7 +100,7 @@ The columns are as follow:
 * Verification: Pull requests, code reviews, CI, staging, customer acceptance, etc.
 * Done: Deployed to production.
 
-![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/kanbanflow-2015-11-13.png)
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-13.png)
 
 ## Key Project Dates
 
@@ -114,11 +114,15 @@ The columns are as follow:
 3. Merge development branch to staging branch to automatically deploy to staging server (if all tests pass).
 4. Merge staging branch to production branch to automatically deploy to production server (if all tests pass).
 
-## Tests and Continuous Integration (coming soon)
+## Try It Online
 
-TDD/BDD with unit tests, integration tests, and CI.
+www.gothenburger.com
 
-## Run Gothenburger Locally (coming soon)
+## Get the App
+
+Coming later.  Maybe.
+
+## Run It Locally (coming soon)
 
 ````
 $ git clone git@github.com:chrisco/gothenburger.git && cd gothenburger
@@ -127,10 +131,17 @@ $ npm install
 $ open index.html
 ````
 
-## Try It Online
+## Tests and Continuous Integration
 
-Coming soon
+TDD/BDD with unit tests, integration tests, and CI.
 
-## Get the App
+## Run the Tests
 
-Coming later
+Install the app and run it locally as per the above instructions.  Then run this command from the project's directory on your computer:
+
+````
+$ rspec
+
+````
+
+Win
