@@ -141,7 +141,6 @@ Install the app and run it locally as per the above instructions.  Then run this
 
 ````
 $ rspec
+# Win
 
 ````
-
-Win

@@ -3,7 +3,9 @@
 # This time I'm adding items one at a time as they come up
 
 ignore/*
-config/secrets.yml
+# config/secrets.yml # Trying to debug this Heroku error message
+# that I see on https://gothenburger.herokuapp.com/ right now:
+# "Missing `secret_token` and `secret_key_base` for 'production' environment, set these values in `config/secrets.yml`"
 log/
 tmp/
 .env
