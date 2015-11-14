@@ -1,7 +1,7 @@
-# Gothenburger [
+# Gothenburger
 
 ## Build Status
-* Travis: ![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)
+* Travis: [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)
 Semaphore: [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-* ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)
 * Coveralls: [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger?branch=master)
 
