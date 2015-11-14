@@ -10,6 +10,16 @@ Gothenburger is a proprietary project of mine that I am working on individually 
 
 Since I want to maximize (1) learning and (2) quality, and I won't be able to complete the application in one week, which is the time I have to work on it before my parents come to Sweden to visit, I will only try to complete one part of the app, the administrative part of the application.  Why?  Because admin-facing apps are important (even if they're not sexy).  And I've already worked on multiple customer-facing apps, so why not.  Plus, I like to be different (even though it entails costs).
 
+## Try It Online
+
+Staging: http://gothenburger-staging.herokuapp.com
+Production: http://gothenburger.herokuapp.com
+Old version of the app: https://gothenburger-old-version.herokuapp.com/
+
+## Get the App
+
+Coming later.  Maybe.
+
 ## Key Technologies Used
 
 * Backend: Node.js
@@ -112,15 +122,8 @@ The columns are as follow:
 1. Work on feature branches.
 2. Merge feature branches to development branch when features are done.
 3. Merge development branch to staging branch to automatically deploy to staging server (if all tests pass).
-4. Merge staging branch to production branch to automatically deploy to production server (if all tests pass).
+4. Merge staging branch to master branch to automatically deploy to production server (if all tests pass).
 
-## Try It Online
-
-www.gothenburger.com
-
-## Get the App
-
-Coming later.  Maybe.
 
 ## Run It Locally (coming soon)
 
@@ -142,5 +145,4 @@ Install the app and run it locally as per the above instructions.  Then run this
 ````
 $ rspec
 # Win
-
 ````
