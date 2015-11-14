@@ -1,4 +1,4 @@
-# Gothenburger [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)  [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger?branch=master)  [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603542/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)
+# Gothenburger [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)  [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger?branch=master)  [![Build Status](https://travis-ci.org/chrisco/gothenburger.svg)](https://travis-ci.org/chrisco/gothenburger)
 
 ![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/eat-more-beef.jpg)
 
