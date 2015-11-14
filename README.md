@@ -1,4 +1,4 @@
-# Gothenburger # Dpl [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger?branch=master) [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)
+# Gothenburger [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger?branch=master) [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)
 
 ![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/eat-more-beef.jpg)
 
@@ -114,10 +114,10 @@ The columns are as follow:
 
 ![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-13.png)
 
-## Key Project Dates
+## Key Dates
 
-* Start Data: Thursday, November 12, 2015
-* Finish Date: Friday, November 20, 2015
+* Project Start: Thursday, November 12, 2015
+* Project Finish: Friday, November 20, 2015
 
 ## Git Branches and Workflow
 
@@ -138,9 +138,9 @@ $ open index.html
 
 ## Tests and Continuous Integration
 
-TDD/BDD with unit tests, integration tests, and CI.
+TDD/BDD with unit tests, integration tests, and CI (see badges at top README).
 
-## Run the Tests
+## Run the Tests Locally
 
 Install the app and run it locally as per the above instructions.  Then run this command from the project's directory on your computer:
 
