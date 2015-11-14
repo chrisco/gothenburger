@@ -14,7 +14,7 @@ Since I want to maximize (1) learning and (2) quality, and I won't be able to co
 
 1. Staging: http://gothenburger-staging.herokuapp.com
 2. Production: http://gothenburger.herokuapp.com
-3. Old version of the app: https://gothenburger-old-version.herokuapp.com/
+3. Old version of the app: https://gothenburger-old-version.herokuapp.com
 
 ## Get the App
 
