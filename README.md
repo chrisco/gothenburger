@@ -142,13 +142,11 @@ Assuming you have the required software on you computer and have it configured p
   * gothenburger_development
   * gothenburger_test
 2. Run these commands:
-  ````
-  $ git clone git@github.com:chrisco/gothenburger.git && cd gothenburger
-  $ bundle install
-  $ rake db:create
-  $ rake db:migrate
-  $ bin/rails server
-  ````
+   - ````$ git clone git@github.com:chrisco/gothenburger.git && cd gothenburger````
+   - ````$ bundle install````
+   - ````$ rake db:create````
+   - ````$ rake db:migrate````
+   - ````$ bin/rails server````
 3. Test it with this command:
   ```$ rspec```
 4. If the tests pass, visit http://localhost:3000
