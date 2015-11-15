@@ -1,4 +1,4 @@
-# Gothenburger [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)  [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger)
+# Gothenburger [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603542/shields_badge.svg)](https://semaphoreci.com/chrisco/gothenburger)  [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger)
 
 ![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/eat-more-beef.jpg)
 
@@ -6,7 +6,7 @@
 
 Learning by doing!  Specifically, by trying to remember and put into practice the things covered during my time at Makers Academy.  Also to keep pushing and extending my learning.
 
-## What's Gothenburger?
+## Gothenburger
 
 Gothenburger is a proprietary project of mine that I am working on individually while a student at Makers Academy.  The ultimate purpose of Gothenburger is to help people find the “best” burger (for them) in Gothenburg, Sweden (for now).
 
@@ -95,7 +95,7 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 ## Project Management / Software Development Tooling
 
-While I typically prefer paper, pen, and a physical board, for this project I will test out www.kanbanflow.com, a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference.
+While I typically prefer paper, pen, and a physical board, for this project I will test out [KanbanFlow](http://kanbanflow.com), a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference here in Gothenburg.
 
 Blue and Green cards are User Stories (Blue for MVP features), Yellow cards are Tasks, and Red cards are Bugs.  Cards are numbered as follows:
 
@@ -112,7 +112,7 @@ The columns are as follow:
 * Verification: Pull requests, code reviews, CI, staging, customer acceptance, etc.
 * Done: Deployed to production.
 
-![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-14.png)
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-15.png)
 
 ## Key Dates
 
