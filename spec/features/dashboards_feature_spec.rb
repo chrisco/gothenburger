@@ -1,11 +1,11 @@
 require 'rails_helper'
 
-RSpec.feature 'Hello World' do
+RSpec.feature 'Login Required' do
 
-  context 'when visitors vist the root path' do
-    scenario 'they see the dashboard welcome page and content' do
+  context "when visitors (or non-loggined in Users) vist the root path" do
+    scenario 'they should be prompted to sign in or sign up to continue' do
       visit '/'
-      expect(page).to have_content 'Welcome to the Gothenburger Admin Dashboard'
+      expect(page).to have_content 'You need to sign in or sign up before continuing.'
     end
   end
 end
