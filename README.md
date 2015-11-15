@@ -1,4 +1,4 @@
-# Gothenburger [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)  [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger)  [![Build Status](https://travis-ci.org/chrisco/gothenburger.svg)](https://travis-ci.org/chrisco/gothenburger)
+# Gothenburger [![Build Status](https://semaphoreci.com/api/v1/projects/f80c76e2-5a1f-49ff-a99a-ed7a1b8e3306/603526/badge.svg)](https://semaphoreci.com/chrisco/gothenburger)  [![Coverage Status](https://coveralls.io/repos/chrisco/gothenburger/badge.svg?branch=master&service=github)](https://coveralls.io/github/chrisco/gothenburger)
 
 ![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/eat-more-beef.jpg)
 
@@ -10,7 +10,7 @@ Learning by doing!  Specifically, by trying to remember and put into practice th
 
 Gothenburger is a proprietary project of mine that I am working on individually while a student at Makers Academy.  The ultimate purpose of Gothenburger is to help people find the “best” burger (for them) in Gothenburg, Sweden (for now).
 
-Since I want to maximize (1) learning and (2) quality, and I won't be able to complete the application in one week, which is the time I have to work on it before my parents come to Sweden to visit, I will only try to complete one part of the app, the administrative part of the application.  Why?  Because admin-facing apps are important (even if they're not sexy).  And I've already worked on multiple customer-facing apps, so why not.  Plus, I like to be different (even though it entails costs).
+Since I want to maximize (1) learning and (2) quality, and I won't be able to complete the application in one week, which is the time I have to work on it before my parents come to Sweden to visit, I will only try to complete one part of the app, the administrative part of the application.  Why?  Because admin-facing apps are important (even if they're not sexy).  And I've already worked on multiple customer-facing apps, so why not.  Plus, I like to be different (even if it entails a cost).
 
 ## Try It Online
 
@@ -22,13 +22,13 @@ Since I want to maximize (1) learning and (2) quality, and I won't be able to co
 
 Coming later.  Maybe.
 
-## Key Technologies Used
+## Key Technologies Used (or expected to be used by 2015-11-20)
 
 * Backend: Node.js
 * Backend: Ruby on Rails
 * Database: PostgreSQL
-* Frontend: AngularJS
-* Hosting: Heroku
+* Frontend: AngularJS (expected)
+* Hosting: Heroku (for now)
 * Styling: Bootstrap
 * Testing: RSpec, Capybara, Jasmine, Protractor, maybe Teaspoon
 
@@ -112,7 +112,7 @@ The columns are as follow:
 * Verification: Pull requests, code reviews, CI, staging, customer acceptance, etc.
 * Done: Deployed to production.
 
-![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-13.png)
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-14.png)
 
 ## Key Dates
 
@@ -138,7 +138,7 @@ $ open index.html
 
 ## Tests and Continuous Integration
 
-TDD/BDD with unit tests, integration tests, and CI (see badges at top README).
+TDD/BDD with unit tests, integration tests, and CI process that includes [Coveralls](https://coveralls.io/github/chrisco/gothenburger) and [Semaphore](https://semaphoreci.com/chrisco/gothenburger).
 
 ## Run the Tests Locally
 
