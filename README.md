@@ -149,7 +149,7 @@ Assuming you have the required software on you computer and have it configured p
    - ````$ bin/rails server````
 3. Test it with this command:
   ```$ rspec```
-4. If the tests pass, visit http://localhost:3000
+4. If the tests pass, visit [http://localhost:3000](http://localhost:3000)
 (you should be prompted to sign in or sign up)
 5. Win
 
