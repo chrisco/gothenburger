@@ -22,9 +22,9 @@ Since I want to maximize (1) learning and (2) quality, and I won't be able to co
 
 Coming later.  Maybe.
 
-## Key Technologies Used (or expected to be used by 2015-11-20)
+## Key Technologies Used
 
-* Backend: Node.js
+* Backend: Node.js (expected)
 * Backend: Ruby on Rails (see the [Gemfile](https://github.com/chrisco/gothenburger/blob/master/Gemfile) for list of Ruby Gems used)
 * Database: PostgreSQL
 * Frontend: AngularJS (expected)
@@ -97,13 +97,10 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 While I typically prefer paper, pen, and a physical board, for this project I will test out [KanbanFlow](http://kanbanflow.com), a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference here in Gothenburg.
 
-Blue and Green cards are User Stories (Blue for MVP features), Yellow cards are Tasks, and Red cards are Bugs.  Cards are numbered as follows:
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-15.png)
+### LEGEND
 
-* US## for User Stories
-* T## for Tasks
-* B## for Bugs
-
-The columns are as follow:
+**Columns:**
 
 * Icebox: One-line ideas for "maybe someday."
 * Backlog: Semi-prioritized list of one-line things we want to get done before the project's Finish Date.
@@ -112,7 +109,17 @@ The columns are as follow:
 * Verification: Pull requests, code reviews, CI, staging, customer acceptance, etc.
 * Done: Deployed to production.
 
-![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-15.png)
+**Cards:**
+
+* Blue and Green cards: User Stories (Blue for MVP features)
+* Yellow cards: Tasks
+* Red cards: Bugs
+
+**Card Numbering System:**
+
+* US## for User Stories
+* T## for Tasks
+* B## for Bugs
 
 ## Key Dates
 
