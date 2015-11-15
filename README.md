@@ -139,27 +139,20 @@ While I typically prefer paper, pen, and a physical board, for this project I wi
 Assuming you have the required software on you computer and have it configured properly, you should be able to run the app on your machine with the following steps:
 
 1. Create these PostgreSQL databases:
-
-* gothenburger_development
-* gothenburger_test
-
+  * gothenburger_development
+  * gothenburger_test
 2. Run these commands:
-
-````
-$ git clone git@github.com:chrisco/gothenburger.git && cd gothenburger
-$ bundle install
-$ rake db:create
-$ rake db:migrate
-$ bin/rails server
-````
-
+  ````
+  $ git clone git@github.com:chrisco/gothenburger.git && cd gothenburger
+  $ bundle install
+  $ rake db:create
+  $ rake db:migrate
+  $ bin/rails server
+  ````
 3. Test it with this command:
-
-```$ rspec```
-
+  ```$ rspec```
 4. If the tests pass, visit http://localhost:3000
 (you should be prompted to sign in or sign up)
-
 5. Win
 
 ## Continuous Integration
