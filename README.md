@@ -16,7 +16,7 @@ Since I want to maximize (1) learning and (2) quality, and I won't be able to co
 
 1. Staging: http://gothenburger-staging.herokuapp.com
 2. Production: http://gothenburger.herokuapp.com
-3. Old version of the app: https://gothenburger-old-version.herokuapp.com
+3. Old version of the app: http://gothenburger-old-version.herokuapp.com
 
 ## Get the App
 
@@ -30,7 +30,7 @@ Coming later.  Maybe.
 * Frontend: AngularJS (expected)
 * Hosting: Heroku (for now)
 * Styling: Bootstrap
-* Testing: RSpec, Capybara, Jasmine, Protractor, and maybe Teaspoon
+* Testing (TDD/BDD): RSpec, Capybara, Jasmine, Protractor, and maybe Teaspoon
 
 ## Initial Features
 
@@ -134,24 +134,34 @@ While I typically prefer paper, pen, and a physical board, for this project I wi
 4. Merge Develop branch to Master branch.
 5. Master branch automatically deploys to production server (if all tests pass).
 
-## Run It Locally (coming soon)
+## Run It Locally
+
+Assuming you have the required software on you computer and have it configured properly, you should be able to run the app on your machine with the following steps:
+
+1. Create these PostgreSQL databases:
+
+* gothenburger_development
+* gothenburger_test
+
+2. Run these commands:
 
 ````
 $ git clone git@github.com:chrisco/gothenburger.git && cd gothenburger
-$ bower install
-$ npm install
-$ open index.html
+$ bundle install
+$ rake db:create
+$ rake db:migrate
+$ bin/rails server
 ````
 
-## Tests and Continuous Integration
+3. Test it with this command:
 
-TDD/BDD with unit tests, integration tests, and CI process that includes [Coveralls](https://coveralls.io/github/chrisco/gothenburger) and [Semaphore](https://semaphoreci.com/chrisco/gothenburger).
+```$ rspec```
 
-## Run the Tests Locally
+4. If the tests pass, visit http://localhost:3000
+(you should be prompted to sign in or sign up)
 
-Install the app and run it locally as per the above instructions.  Then run this command from the project's directory on your computer:
+5. Win
 
-````
-$ rspec
-# Win
-````
+## Continuous Integration
+
+The CI process includes [Coveralls](https://coveralls.io/github/chrisco/gothenburger), [Semaphore](https://semaphoreci.com/chrisco/gothenburger), and automatic deployment to [staging](http://gothenburger-staging.herokuapp.com) and [production](http://gothenburger.herokuapp.com) (unless tests fail).
