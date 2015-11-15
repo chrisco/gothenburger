@@ -25,12 +25,12 @@ Coming later.  Maybe.
 ## Key Technologies Used (or expected to be used by 2015-11-20)
 
 * Backend: Node.js
-* Backend: Ruby on Rails
+* Backend: Ruby on Rails (see the [Gemfile](https://github.com/chrisco/gothenburger/blob/master/Gemfile) for list of Ruby Gems used)
 * Database: PostgreSQL
 * Frontend: AngularJS (expected)
 * Hosting: Heroku (for now)
 * Styling: Bootstrap
-* Testing: RSpec, Capybara, Jasmine, Protractor, maybe Teaspoon
+* Testing: RSpec, Capybara, Jasmine, Protractor, and maybe Teaspoon
 
 ## Initial Features
 
