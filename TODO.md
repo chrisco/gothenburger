@@ -22,4 +22,3 @@ Tighten and tidy
 ## Style other applicable Devise views
 
 Such as for editing User info and resetting passwords
-

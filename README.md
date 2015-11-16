@@ -146,6 +146,7 @@ Assuming you have the required software on you computer and have it configured p
    - ````$ bundle install````
    - ````$ rake db:create````
    - ````$ rake db:migrate````
+   - ````$ rake bower:install````
    - ````$ bin/rails server````
 3. Test it with this command:
   ```$ rspec```
