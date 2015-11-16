@@ -10,7 +10,7 @@ RSpec.feature 'Sign Up and Sign In' do
 
     scenario 'visitors can Sign Up' do
       click_link 'Sign up'
-      fill_in :user_email, with: 'foo@foo.com'
+      fill_in :user_email, with: 'foo@gothenburger.com'
       fill_in :user_password, with: 'password'
       fill_in :user_password_confirmation, with: 'password'
       click_button 'Sign up'
@@ -27,7 +27,7 @@ RSpec.feature 'Sign Up and Sign In' do
 
     scenario 'Sign In with valid credentials works' do
       click_button 'Log in'
-      fill_in :user_email, with: 'factory@girl.com'
+      fill_in :user_email, with: 'factory.girl@gothenburger.com'
       fill_in :user_password, with: 'password'
       click_button 'Log in'
       expect(page).to have_content 'Sign out'
@@ -35,7 +35,7 @@ RSpec.feature 'Sign Up and Sign In' do
 
     scenario 'Sign In with invalid credentials fails' do
       click_button 'Log in'
-      fill_in :user_email, with: 'factory@girl.com'
+      fill_in :user_email, with: 'factory.girl@gothenburger.com'
       fill_in :user_password, with: 'wrong_password'
       click_button 'Log in'
       # binding.pry
