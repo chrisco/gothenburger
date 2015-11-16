@@ -97,7 +97,7 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 While I typically prefer paper, pen, and a physical board, for this project I will test out [KanbanFlow](http://kanbanflow.com), a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference here in Gothenburg.
 
-![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-15.png)
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-16.png)
 ### LEGEND
 
 **Columns:**
@@ -128,7 +128,7 @@ While I typically prefer paper, pen, and a physical board, for this project I wi
 
 ## Git Branches and Workflow
 
-1. Work on feature branches.  Feature branch names prefixed with card numbers (see above).
+1. Work on feature branches.
 2. Merge feature branches to Develop branch when features are done.
 3. Develop branch automatically deploys to staging server (if all tests pass).
 4. Merge Develop branch to Master branch.
