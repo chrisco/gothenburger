@@ -13,6 +13,7 @@ gem 'devise'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk'
 gem 'coveralls', require: false
+gem 'bower-rails'
 
 group :production do
   gem 'rails_12factor'
