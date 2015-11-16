@@ -2,8 +2,10 @@
 
 ## Secret Token
 
-I think I can remove these lines from these files and Heroku will still work.
-Try it and revert if it breaks anything.
+I tried to remove these lines from these,
+but then my build broke so I reverted,
+even if it is probably a coincidence
+(must be a coincidence?)
 
 In secrets.yml
 Remove this line:
