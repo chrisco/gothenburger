@@ -15,6 +15,11 @@ In .env
 Remove the line for:
 SECRET_TOKEN
 
-## 2 Gemfile, spec_helper.rb, and rails_helper.rb
+## Gemfile, spec_helper.rb, and rails_helper.rb
 
 Tighten and tidy
+
+## Style other applicable Devise views
+
+Such as for editing User info and resetting passwords
+
