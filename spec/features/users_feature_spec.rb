@@ -8,13 +8,23 @@ RSpec.feature 'Sign Up and Sign In' do
       visit '/'
     end
 
-    scenario 'visitors can Sign Up' do
+    scenario 'visitors with gothenburger.com email addresses can Sign Up' do
       click_link 'Sign up'
       fill_in :user_email, with: 'foo@gothenburger.com'
       fill_in :user_password, with: 'password'
       fill_in :user_password_confirmation, with: 'password'
       click_button 'Sign up'
       expect(page).to have_content 'Sign out'
+    end
+
+    scenario 'visitors WITHOUT gothenburger.com email addresses CAN\'T Sign Up' do
+      click_link 'Sign up'
+      fill_in :user_email, with: 'foo@not-gothenburger.com'
+      fill_in :user_password, with: 'password'
+      fill_in :user_password_confirmation, with: 'password'
+      click_button 'Sign up'
+      expect(page).not_to have_content 'Sign out'
+      expect(page).to have_content 'Email is invalid'
     end
   end
 

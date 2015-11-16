@@ -128,7 +128,7 @@ While I typically prefer paper, pen, and a physical board, for this project I wi
 
 ## Git Branches and Workflow
 
-1. Work on feature branches.
+1. Work on feature branches.  Feature branch names prefixed with card numbers (see above).
 2. Merge feature branches to Develop branch when features are done.
 3. Develop branch automatically deploys to staging server (if all tests pass).
 4. Merge Develop branch to Master branch.
@@ -136,7 +136,7 @@ While I typically prefer paper, pen, and a physical board, for this project I wi
 
 ## Run It Locally
 
-Assuming you have the required software on you computer and have it configured properly, you should be able to run the app on your machine with the following steps:
+Assuming you have the required software on you computer and have it configured properly, you should be able to run the app on your machine with the following steps (may need some debugging):
 
 1. Create these PostgreSQL databases:
   * gothenburger_development
