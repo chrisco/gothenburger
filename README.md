@@ -97,7 +97,7 @@ A lightweight, lean/agile approach that I call "Scrum-flavored Kanban sprinkled 
 
 While I typically prefer paper, pen, and a physical board, for this project I will test out [KanbanFlow](http://kanbanflow.com), a tool made by a local guy I met at the excellent [Brewing Agile](https://brewingagile.org/) conference here in Gothenburg.
 
-![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/master/pics/kanbanflow-2015-11-16.png)
+![Screenshot of my Kanban board](https://raw.githubusercontent.com/chrisco/gothenburger/develop/pics/kanbanflow-2015-11-16.png)
 ### LEGEND
 
 **Columns:**
