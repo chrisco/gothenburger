@@ -8,17 +8,21 @@
       <%= csrf_meta_tags %>
   </head>
   <body class="container">
-    <% if notice.present? %>
-      <aside class="alert alert-info">
-        <%= notice %>
-      </aside>
-    <% end %>
-    <% if alert.present? %>
-      <aside class="alert alert-danger">
-        <%= alert %>
-      </aside>
-    <% end %>
+    <%= render "shared/nav" %>
+    <div style="padding-top: 50px;">
+      <% if notice.present? %>
+        <aside class="alert alert-top alert-info">
+          <%= notice %>
+        </aside>
+      <% end %>
+      <% if alert.present? %>
+        <aside class="alert alert-top alert-danger">
+          <%= alert %>
+        </aside>
+      <% end %>
+    </div>
     <%= yield %>
+    <%= render "shared/footer" %>
     <script>
       window.setTimeout(function() {
         $(".alert").fadeTo(500, 0).slideUp(500, function(){
