@@ -5,18 +5,24 @@
 * Rewrite and improve the test I wrote.
 * Write more tests as necessary.
 
-## Navigataion
+## Assets
 
-Fix and improve (right now it's mostly a C&P job)
+Install glyphs (only the ones I need)?
 
-## Views
+## Navigation and Views
 
-* Make pages and route to them the Rails way
-* Fix and improve (right now it's mostly a C&P job)
+* Use proper URL helpers for all routing and linking
+* Fix and improve
+* Refactor, trim, and tidy
 
 ## Style other applicable Devise views
 
 Such as for editing User info and resetting passwords
+
+## URLs
+
+Make consistent by changing underscores to hyphens
+(Devise uses underscores between, but I, and the entire English language, prefer hyphens)
 
 ## Secret Token
 
@@ -66,3 +72,7 @@ minimum required (the controller and view):
 
 1. Make Yum.nu website
 2. Make app "by Yum!" and (c) Yum!
+
+## Move these things to Backlog or Icebox, as appropriate
+
+Then delete them from here!

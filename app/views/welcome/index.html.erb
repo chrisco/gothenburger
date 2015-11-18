@@ -1,13 +1,29 @@
-<h1><i>Who's got the best burger in Gothenburg?</i></h1>
-<div><%= image_tag "hero-shot.jpg", class: "img-responsive"%></div>
-<br>
-<!-- TODO: Make pages and route to them the Rails way -->
 <div>
-  <form>
-    <button class="btn btn-success btn-lg btn-block" type="submit" formmethod="get" formaction="/sign_up-sign-in">Sign Up</button>
-  </form>
+  <center>
+    <h1>
+      <i>Who's got the best burger in Gothenburg?</i>
+    </h1>
+  </center>
+</div>
+<div>
+  <center>
+    <%= image_tag "hero-shot.jpg", class: "img-responsive"%>
+  </center>
 </div>
 <br>
-<center>
-  <p>or <a href="/learn_more">Learn More</a></p>
-</center>
+<div>
+  <center>
+    <div class="btn-group">
+      <%= button_to "Sign Up", user_registration_path, class: "btn btn-success btn-lg" %>
+    </div>
+    <div class="btn-group">
+      <%= button_to "Sign In", new_user_session_path, class: "btn btn-success btn-lg" %>
+    </div>
+  </center>
+</div>
+<br>
+<div>
+  <center>
+    <%= link_to "Learn More &raquo;".html_safe, learn_more_index_path %>
+  </center>
+</div>
