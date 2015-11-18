@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.feature 'Sign Up and Sign In' do
 
-  context 'Sign Up' do
+  xcontext 'Sign Up' do
 
     before do
       visit '/'
@@ -28,7 +28,7 @@ RSpec.feature 'Sign Up and Sign In' do
     end
   end
 
-  context 'Sign In' do
+  xcontext 'Sign In' do
 
     before do
       visit '/'
