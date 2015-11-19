@@ -1,20 +1,12 @@
 <header>
-  <h1>
-  Welcome to the Gothenburger Admin Dashboard!
-  </h1>
+  <h1>Welcome to Your Dashboard!</h1>
   <h2>
-  <% if current_user %>
-  <span>You are signed in as <%= current_user.email %></span>
-  <% end %>
+    <% if current_user %>
+      <span>You are signed in as <%= current_user.email %></span>
+    <% end %>
   </h2>
-  <h3>
-  <% if current_user %>
-  <div><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></div>
-  <% end %>
-  </h3>
 </header>
 <section>
-  <h1>
-  The dashboard will be here!
-  </h1>
+  <br>
+  <%= image_tag "dashboard.jpg", class: "img-responsive"%>
 </section>
