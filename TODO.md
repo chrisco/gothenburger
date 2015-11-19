@@ -39,6 +39,10 @@ In .env
 Remove the line for:
 SECRET_TOKEN
 
+## Secrets in General
+
+Right now I'm using .env and gem, but that's not the Rails way, I don't think.  What is the Rails way, secrets.yml?  Find out and implement.
+
 ## Gemfile, spec_helper.rb, and rails_helper.rb
 
 Tighten and tidy
